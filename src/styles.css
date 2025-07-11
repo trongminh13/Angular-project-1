@@ -1,0 +1,220 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+margin: 0px auto;
+font-family: Poppins, sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header{
+  height: 800px;
+  width: 100%;
+  background-color: EDEEFF;
+  padding-top: 20px;
+}
+
+
+.contact-top{
+  width: 1450px;
+  height: 72.11px;
+  background-color: #1B1C37;
+  border-radius: 10px;
+  display: flex;
+  padding-top: 15px;
+}
+
+.profile-contact{
+  margin-top: 6px;
+  color: white;
+}
+
+.introdution-text button{
+  width: 318px;
+  height: 80px;;
+  justify-content: center;
+  align-items: center;
+}
+.banner-introdution{
+  display: flex;
+  margin-top: 50px;
+
+}
+.introdution-text{
+  margin-left: 250px;
+}
+.introdution-text h1 b{
+  font-size: 96px;
+  line-height: 105%;
+
+}
+
+.introdution-text p{
+  width: 375px;
+  height: 67px;
+  margin-top: 50px;
+}
+
+.introdution-text button{
+  margin-top: 50px;
+  width: 294px;
+  height: 68px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+.contect-me button{
+  width: 174px;
+  height: 43px;
+  border-radius: 7px;
+  background-color: blueviolet;
+}
+
+.button-page button{
+  background-color: transparent;
+  border: transparent;
+}
+
+/* container */
+
+.container-body{
+  background-color: fff;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.circular-progress .container{
+  min-width: 1620px;
+}
+.content-top{
+height: 800px;
+width: 100%;
+
+}
+.content-top h1{
+/* text-align:center; */
+
+}
+.title-text{
+font-size: 72px;
+margin-left: 250px;
+  background: -webkit-linear-gradient(#B224EF, #7579FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.circular-progress-item{
+  padding-top: 20px;
+height: 308px;
+width: 220px;
+background-color: #fff;
+
+}
+.circular-progress-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.circular-progress-item p{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+ .content{
+height: 1178px;
+width: 100%;
+background-color: #1B1C37;
+padding-top: 10px;
+}
+
+ .content p{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+ }
+
+.content .container{
+width: 1198px;
+height: 363px;
+border-radius: 10px;
+background-color: white;
+display: flex;
+}
+
+.content .container:nth-child(1){
+width: 40%;
+}
+.container:nth-child(2){
+width: 40%;
+}
+.container:nth-child(3){
+width: 40%;
+}
+
+.container-item-con{
+  width: 256px;
+  height: 263px;
+  margin-top: 50px;;
+
+}
+.container-item-con img{
+ display: block;
+  margin: auto;
+
+}
+.container-item-con p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.container-list-item{
+  height: 397px;
+  width: 1498px;
+  background-color: #fff;
+}
+/* footer */
+.footer{
+padding-top: 45px;
+height: 200px;
+width: 100%;
+background-color: #EDEEFF;
+margin: auto;
+}
+.list-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.list-icon i{
+  font-size: 40px;
+  margin: 0 20px;
+  color: #e66465
+  /* background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); */
+  /* color: linear-gradient(#e66465, #9198e5); */
+}
+.fa-brands{
+  color: linear-gradient(#e66465, #9198e5);
+}
+.footer p{
+  margin-top: 30px;
+  text-align: center;
+}
