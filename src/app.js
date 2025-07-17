@@ -2,7 +2,7 @@ let number = document.querySelector('number');
 let counter = 0;
 const swiper = new Swiper('.wrapper', {
 // loop: true,
-// spaceBetween: 30,
+// spaceBetween: 0,
 
 // autoplay: {
 //   delay:1000,
@@ -16,8 +16,8 @@ const swiper = new Swiper('.wrapper', {
 //   clickable: true,
 //   dunamicBullets: true,
 // },
- spaceBetween: 0,
-  speed:5000,
+ spaceBetween: 70,
+  speed:7000,
 	direction: 'horizontal',
   autoplay: {delay: 0},
 
